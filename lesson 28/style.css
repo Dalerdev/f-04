@@ -1,0 +1,892 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.d-flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+body .start {
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+}
+
+body .start .container .d-flex i {
+  color: #ff2242;
+  margin-right: 10px;
+}
+
+body .start .container .d-flex .title {
+  text-transform: uppercase;
+}
+
+body .start .container .d-flex span {
+  margin: 0px 20px;
+}
+
+body .start .container .phone-number i {
+  margin-right: 10px;
+}
+
+body .start .container .phone-number a {
+  color: white;
+  text-decoration: none;
+}
+
+body section.header {
+  padding: 15px 0px;
+}
+
+body section.header .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.header .container .logo img {
+  height: 55px;
+}
+
+body section.header .container .ad img {
+  height: 90px;
+}
+
+body nav {
+  background-color: #ff2242;
+  color: white;
+}
+
+body nav .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body nav .container .navs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+body nav .container .navs li:last-child a {
+  border: 0px;
+}
+
+body nav .container .navs li:first-child a {
+  padding-left: 0px;
+}
+
+body nav .container .navs li a {
+  padding: 0px 20px;
+  color: white;
+  border-right: 1px solid white;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+body nav .container .social-media {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+body nav .container .social-media li:hover a {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+body nav .container .social-media li a {
+  color: white;
+  padding: 20px;
+  display: block;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+body nav .container .search {
+  padding: 30px;
+  border-right: 1px solid white;
+}
+
+body section {
+  background-color: #f4f4f4;
+}
+
+body section .container .d-flex-between {
+  margin-top: 30px;
+}
+
+body section .container .d-flex-between .fashion .btn1 {
+  position: absolute;
+  font-size: 10px;
+  padding: 6px 8px;
+  margin: 240px 50px;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+body section .container .d-flex-between .fashion .text1 {
+  font-size: 25px;
+  position: absolute;
+  font-weight: bold;
+  width: 300px;
+  margin: 280px 50px;
+  color: white;
+}
+
+body section .container .d-flex-between .fashion .text2 {
+  position: absolute;
+  color: white;
+  margin: 380px 50px;
+}
+
+body section .container .d-flex-between .fashion2 {
+  margin-top: 10px;
+}
+
+body section .container .d-flex-between .fashion2 .btn2 {
+  position: absolute;
+  font-size: 10px;
+  padding: 6px 15px;
+  background-color: #10c600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 50px 50px;
+}
+
+body section .container .d-flex-between .fashion2 .text1 {
+  position: absolute;
+  margin-top: -130px;
+  font-weight: bold;
+}
+
+body section .container .d-flex-between .fashion2 .text2 {
+  position: absolute;
+  margin-top: -40px;
+}
+
+body section .container .d-flex-between .Whats-new {
+  width: 63%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between p {
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+  color: #051441;
+  margin-top: -10px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between ul li {
+  padding: 15px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .doc {
+  padding: 0px 20px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .doc img {
+  width: 300px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .doc .txt1 {
+  font-size: 25px;
+  width: 300px;
+  margin: 0px 0px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .doc .txt2 {
+  font-size: 15px;
+  width: 300px;
+  margin: 20px 0px;
+  color: #7090bd;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .doc .txt3 {
+  font-size: 15px;
+  width: 300px;
+  margin: 20px 0px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards {
+  width: 400px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card1 {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card1 .txt5 {
+  font-size: 12px;
+  margin: -100px 150px;
+  color: #027785;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card1 .txt6 {
+  font-size: 15px;
+  width: 220px;
+  margin: 120px 150px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card1 .txt7 {
+  margin: -110px 150px;
+  font-size: 12px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card2 {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card2 .txt5 {
+  font-size: 12px;
+  margin: -100px 150px;
+  color: #027785;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card2 .txt6 {
+  font-size: 15px;
+  width: 220px;
+  margin: 120px 150px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card2 .txt7 {
+  margin: -110px 150px;
+  font-size: 12px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card3 {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card3 .txt5 {
+  font-size: 12px;
+  margin: -100px 150px;
+  color: #10c600;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card3 .txt6 {
+  font-size: 15px;
+  width: 220px;
+  margin: 120px 150px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card3 .txt7 {
+  margin: -110px 150px;
+  font-size: 12px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card4 {
+  width: 400px;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card4 .txt5 {
+  font-size: 12px;
+  margin: -100px 150px;
+  color: #ff2242;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card4 .txt6 {
+  font-size: 15px;
+  width: 220px;
+  margin: 120px 150px;
+}
+
+body section .container .d-flex-between .Whats-new .d-flex-between .cards .card4 .txt7 {
+  margin: -110px 150px;
+  font-size: 12px;
+}
+
+body section .container .img1 {
+  margin-top: 30px;
+}
+
+body .Recent {
+  width: 32%;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+body .Recent .icons {
+  width: 382px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+}
+
+body .Recent .icons .icon1 {
+  width: 40%;
+  height: 80px;
+  border: 1px solid silver;
+  margin: 3px 5px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon1 .ico1 {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3a5998;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon1 .ico1 i {
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 10px;
+}
+
+body .Recent .icons .icon1 .ico1 p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+body .Recent .icons .icon1 .txt22 {
+  font-size: 14px;
+  margin: -25px 60px;
+}
+
+body .Recent .icons .icon2 {
+  width: 40%;
+  height: 80px;
+  border: 1px solid silver;
+  margin: 3px 5px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon2 .ico2 {
+  width: 40px;
+  height: 40px;
+  background-color: #1dcbff;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon2 .ico2 i {
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .Recent .icons .icon2 .ico2 p {
+  margin: -35px 50px;
+  font-weight: bold;
+}
+
+body .Recent .icons .icon2 .txt22 {
+  font-size: 14px;
+  margin: -25px 60px;
+}
+
+body .Recent .icons .icon3 {
+  width: 40%;
+  height: 80px;
+  border: 1px solid silver;
+  margin: 3px 5px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon3 .ico3 {
+  width: 40px;
+  height: 40px;
+  background-color: #3a5998;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon3 .ico3 i {
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .Recent .icons .icon3 .ico3 p {
+  margin: -35px 50px;
+  font-weight: bold;
+}
+
+body .Recent .icons .icon3 .txt22 {
+  font-size: 14px;
+  margin: -25px 60px;
+}
+
+body .Recent .icons .icon4 {
+  width: 40%;
+  height: 80px;
+  border: 1px solid silver;
+  margin: 3px 5px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon4 .ico4 {
+  width: 40px;
+  height: 40px;
+  background-color: #ff2242;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+body .Recent .icons .icon4 .ico4 i {
+  font-size: 30px;
+  color: white;
+  padding-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .Recent .icons .icon4 .ico4 p {
+  margin: -35px 50px;
+  font-weight: bold;
+}
+
+body .Recent .icons .icon4 .txt22 {
+  font-size: 14px;
+  margin: -25px 60px;
+}
+
+body .most {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  height: 92%;
+}
+
+body .most p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 25px;
+  padding-top: 30px;
+}
+
+body .most .btn6 {
+  position: absolute;
+  font-size: 10px;
+  padding: 6px 10px;
+  background-color: #8a3ab9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 60px 45px;
+}
+
+body .most img {
+  margin: -30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .most .txt33 {
+  position: absolute;
+  margin: -100px 45px;
+  font-weight: bold;
+  width: 300px;
+  color: white;
+}
+
+body .most .txt44 {
+  position: absolute;
+  margin: -30px 45px;
+  color: white;
+  font-size: 12px;
+}
+
+body .most .cardd {
+  width: 330px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+}
+
+body .most .cardd img {
+  margin: 0px;
+}
+
+body .most .cardd p {
+  font-size: 16px;
+  margin: -10px 10px;
+  width: 200px;
+}
+
+body .most .txt66 {
+  font-size: 12px;
+  margin: -110px 145px;
+  width: 200px;
+}
+
+body .most .carddd {
+  width: 330px;
+  height: 100px;
+  margin: 150px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .most .carddd img {
+  margin: 0px;
+}
+
+body .most .carddd p {
+  font-size: 16px;
+  margin: -10px 10px;
+  width: 200px;
+}
+
+body .most .txt88 {
+  font-size: 12px;
+  margin: -210px 145px;
+  width: 200px;
+}
+
+body section {
+  margin-top: 100px;
+}
+
+body section .container .d-flex-between .popular {
+  width: 75%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+body section .container .d-flex-between .popular p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+body section .container .d-flex-between .popular .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body section .container .d-flex-between .popular .cards .card .txt {
+  font-size: 15px;
+  margin: 20px 0px;
+  width: 200px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+body section .container .d-flex-between .popular .cards .card .txt:hover {
+  color: red;
+}
+
+body section .container .d-flex-between .popular .cards .card .txt1 {
+  font-size: 12px;
+  margin: 10px 0px;
+}
+
+body .yt {
+  background-color: white;
+}
+
+body .yt .container .txty {
+  font-size: 45px;
+  font-weight: bold;
+  color: #051441;
+  padding-top: 50px;
+}
+
+body .yt .container .d-flex-between .card .imgg {
+  width: 350px;
+  position: relative;
+}
+
+body .yt .container .d-flex-between .card .img-txt {
+  width: 280px;
+  height: 116px;
+  background-color: white;
+  position: absolute;
+  margin: -120px 0px;
+  border-radius: 0 7px 0 0;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body .yt .container .d-flex-between .card .txtt {
+  font-size: 12px;
+  margin: -30px 20px;
+  position: absolute;
+  width: 100px;
+}
+
+body .yt .container .d-flex-between .card i {
+  font-size: 30px;
+  position: absolute;
+  margin: 245px -130px;
+  color: #9e9e9e;
+}
+
+body .yy {
+  background-color: #f4f4f4;
+}
+
+body .yy .container .v1 {
+  width: 100%;
+  height: 300px;
+}
+
+body .yy .container .d-flex-between .card {
+  width: 250px;
+}
+
+body .yy .container .d-flex-between .card video {
+  width: 100%;
+  height: 200px;
+}
+
+body .yy .container .d-flex-between .card .txtt {
+  font-size: 18px;
+  color: #051441;
+  margin: 10px 30px;
+}
+
+body .ytt {
+  background-color: white;
+}
+
+body .ytt .container .d-flex-between .card {
+  margin-top: 60px;
+}
+
+body .ytt .container .d-flex-between .card .foto {
+  width: 60%;
+  border-radius: 10px;
+}
+
+body .ytt .container .d-flex-between .card .textweek {
+  font-size: 15px;
+  font-weight: bold;
+  width: 250px;
+  margin-top: 10px;
+}
+
+body .ytt .container .d-flex-between .card .txte {
+  font-size: 12px;
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+
+body .info .container img {
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 100px;
+}
+
+body .end {
+  background-color: #0e1b2e;
+  height: 540px;
+}
+
+body .end .container .d-flex-between .cardd img {
+  padding-top: 30px;
+}
+
+body .end .container .d-flex-between .cardd .texte {
+  width: 250px;
+  margin: 60px 0px;
+  color: white;
+}
+
+body .end .container .d-flex-between .cardd .ttt {
+  color: white;
+  width: 250px;
+}
+
+body .end .container .d-flex-between .cardd .ter {
+  color: white;
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body .end .container .d-flex-between .cardd .tre {
+  color: white;
+  width: 300px;
+  line-height: -60px;
+  font-size: 15px;
+}
+
+body .end .container .d-flex-between .cardd .popullar {
+  color: white;
+  width: 400px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+body .end .container .d-flex-between .cardd .carde {
+  width: 300px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+body .end .container .d-flex-between .cardd .carde img {
+  width: 100px;
+  margin-top: -30px;
+  border-radius: 5px;
+}
+
+body .end .container .d-flex-between .cardd .carde p {
+  color: white;
+  width: 400px;
+  margin: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: block;
+  margin-left: 20px;
+}
+
+body .end .container .d-flex-between .cardd .logooo {
+  width: 50%;
+}
+
+body .end .container .d-flex-between .cardd img {
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 30px;
+}
+
+body .yttt {
+  background-color: #363131;
+  margin-top: 0px;
+}
+
+body .yttt .container p {
+  text-align: center;
+  margin: 0px;
+  color: #fffbfb;
+  padding: 30px 0px;
+}
+/*# sourceMappingURL=style.css.map */
